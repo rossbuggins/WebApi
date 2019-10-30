@@ -180,10 +180,13 @@ namespace Microsoft.AspNet.OData.Query
 
             if (queryOptions != null)
             {
-                OrderByQueryOption orderBy = queryOptions.GenerateStableOrder();
-                if (orderBy != null)
+                if (querySettings.EnsureStableOrdering)
                 {
-                    orderByNodes = orderBy.OrderByNodes;
+                    OrderByQueryOption orderBy = queryOptions.GenerateStableOrder();
+                    if (orderBy != null)
+                    {
+                        orderByNodes = orderBy.OrderByNodes;
+                    }
                 }
             }
 

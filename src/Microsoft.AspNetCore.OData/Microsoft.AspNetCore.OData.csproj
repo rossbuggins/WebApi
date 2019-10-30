@@ -14,9 +14,9 @@
   <Import Project="..\Microsoft.AspNet.OData.Shared\Microsoft.AspNet.OData.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="Desktop.Analyzers" Version="1.1.0" />
+    <!--<PackageReference Include="Desktop.Analyzers" Version="1.1.0" />-->
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.0.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="1.1.0" />
+    <!--<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="1.1.0" />-->
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
     <PackageReference Include="Microsoft.OData.Core" Version="7.6.1" />
     <PackageReference Include="Microsoft.OData.Edm" Version="7.6.1" />
@@ -31,7 +31,7 @@
     <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
     <PackageReference Include="System.Linq.Queryable" Version="4.3.0" />
     <PackageReference Include="System.Runtime" Version="4.3.0" />
-    <PackageReference Include="System.Security.Cryptography.Hashing.Algorithms.Analyzers" Version="1.1.0" />
+    <!--<PackageReference Include="System.Security.Cryptography.Hashing.Algorithms.Analyzers" Version="1.1.0" />-->
   </ItemGroup>
 
   <ItemGroup>
